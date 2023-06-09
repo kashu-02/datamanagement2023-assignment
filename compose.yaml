@@ -1,0 +1,10 @@
+
+services:
+  app:
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/app
+    entrypoint: /bin/bash
+    
