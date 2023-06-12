@@ -9,5 +9,11 @@ fn main() {
     let bb: i32 = rng.gen_range(1..6);
     println!("Die 1: {}", aa);
     println!("Die 2: {}", bb);
-    println!("Total value: {}", aa + bb);
+    let total: i32 = aa + bb;
+    println!("Total value: {}", total);
+    if total > 7 {
+        println!("You won!");
+    } else {
+        println!("You lost!");
+    }
 }
