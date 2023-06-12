@@ -17,8 +17,8 @@ fn main() {
     let total: i32 = aa + bb;
     println!("Total value: {}", total);
     if total > 7 {
-        println!("You won!");
+        println!("{} won!", name.trim());
     } else {
-        println!("You lost!");
+        println!("{} lost!", name.trim());
     }
 }
